@@ -5,7 +5,7 @@ export default function HooksTutorial() {
     <div>
       <p>
         This Repo has sample codes on different react hooks. All the examples
-        and code was implemented based on a tutorial of Net Ninja on Youtube.
+        and code was implemented based on a tutorial of Codevolution on Youtube.
         Hooks covered on this tutorial as as follow:
       </p>
       <ul>
