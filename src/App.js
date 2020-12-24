@@ -1,12 +1,12 @@
 import './App.css';
 // import HookCounterOne from './components/HookCounterOne';
-import DataFetching from './components/DataFetching';
+import DataFetchingTwo from './components/DataFetchingTwo';
 
 function App() {
   return (
     <div className='App'>
       <h1>Hello Hooks</h1>
-      <DataFetching />
+      <DataFetchingTwo />
     </div>
   );
 }
