@@ -1,10 +1,10 @@
 import './App.css';
-import HooksTutorial from './components/HooksTutorial';
+import CounterThree from './components/CounterThree';
+
 function App() {
   return (
     <div className='App'>
-      <h1>Hello Hooks</h1>
-      <HooksTutorial />
+      <CounterThree />
     </div>
   );
 }
