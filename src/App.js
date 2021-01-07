@@ -1,10 +1,13 @@
 import './App.css';
-import HooksTutorial from './components/HooksTutorial';
+import ComponentA from './components/ComponentA';
+import ComponentB from './components/ComponentB';
+import ComponentC from './components/ComponentC';
 function App() {
   return (
     <div className='App'>
-      <h1>Hello Hooks</h1>
-      <HooksTutorial />
+      <ComponentA />
+      <ComponentB />
+      <ComponentC />
     </div>
   );
 }
