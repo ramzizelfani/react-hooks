@@ -3,7 +3,8 @@ import ComponentE from './ComponentE';
 
 export default function ComponentC() {
   return (
-    <div>
+    <div style={{backgroundColor: 'cyan'}}>
+      C
       <ComponentE />
     </div>
   );
