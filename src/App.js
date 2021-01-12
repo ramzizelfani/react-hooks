@@ -1,10 +1,9 @@
 import './App.css';
-import CounterThree from './components/CounterThree';
-
+import DataFetchingTwo from './components/DataFetchingTwo'  
 function App() {
   return (
     <div className='App'>
-      <CounterThree />
+      <DataFetchingTwo />
     </div>
   );
 }
