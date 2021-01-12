@@ -1,10 +1,9 @@
 import './App.css';
-import HooksTutorial from './components/HooksTutorial';
+import ParentComponent from './components/ParentComponent'
 function App() {
   return (
     <div className='App'>
-      <h1>Hello Hooks</h1>
-      <HooksTutorial />
+      <ParentComponent />
     </div>
   );
 }
