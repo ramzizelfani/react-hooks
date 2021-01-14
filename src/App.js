@@ -1,10 +1,15 @@
+import React, {useState} from 'react'
 import './App.css';
-import HooksTutorial from './components/HooksTutorial';
+import ClassTimer from './components/ClassTimer';
+import HookTimer from './components/HookTimer';
 function App() {
+  const [toggle, setToggle] = useState(false)
+  
   return (
     <div className='App'>
-      <h1>Hello Hooks</h1>
-      <HooksTutorial />
+      <ClassTimer />
+      <button onClick = {() => setToggle(!toggle)}>Set Toggle</button>
+      {toggle ? <HookTimer /> : 'Timer unmouted'}
     </div>
   );
 }
